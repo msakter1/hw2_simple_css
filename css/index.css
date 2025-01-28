@@ -1,0 +1,94 @@
+body {
+    font: Arial, verdana;
+    background: black; /* use hex */
+    color: white; /* use hex */
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #0D0D0D;
+}
+
+p{
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+img {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+    /* width: 50%; */
+}
+
+main .introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+main .red {
+    background: red; /* use hex */
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+}
+
+main .blue {
+    background: blue; /* use hex */
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+}
+
+main .blue h2, main .blue p {
+    color: #C4C4C4;
+
+}
+
+main .yellow {
+    background: yellow; /* use hex */
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+}
+
+main .yellow p {
+    color: #707070;
+}
+
+main .green {
+    background: #00EB00;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+}
+
+footer {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg,#000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
+    border: 5px solid white; /* use hex */
+}
+
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
