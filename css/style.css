@@ -1,7 +1,7 @@
 body {
     font: Arial, verdana;
-    background: black; /* use hex */
-    color: white; /* use hex */
+    background: #000000; 
+    color: #ffffff;
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
@@ -18,7 +18,7 @@ h2 {
     color: #0D0D0D;
 }
 
-p{
+p {
     font-size: 24px;
     padding-top: 10px;
     padding-left: 10px;
@@ -26,10 +26,17 @@ p{
 
 img {
     width: 250px;
+    border: 10px dashed #ffffff;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid white;
-    /* width: 50%; */
+}
+
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #ffffff;
+    box-sizing: border-box;
 }
 
 main .introduction {
@@ -38,40 +45,40 @@ main .introduction {
     line-height: 2;
 }
 
-main .red {
-    background: red; /* use hex */
+main div.red {
+    background: #ff0000; 
     text-align: right;
     margin-left: 50px;
     border-bottom: 2px;
     border-left: 5px;
 }
 
-main .blue {
-    background: blue; /* use hex */
+main div.blue {
+    background: #0000ff; /* use hex */
     text-align: left;
     margin-right: 50px;
     border-right: 5px;
     border-top: 2px;
 }
 
-main .blue h2, main .blue p {
+main div.blue h2, main div.blue p {
     color: #C4C4C4;
 
 }
 
-main .yellow {
-    background: yellow; /* use hex */
+main div.yellow {
+    background: #ffff00; 
     text-align: right;
     margin-left: 50px;
     border-bottom: 2px;
     border-left: 5px;
 }
 
-main .yellow p {
+main div.yellow p {
     color: #707070;
 }
 
-main .green {
+main div.green {
     background: #00EB00;
     text-align: left;
     margin-right: 50px;
@@ -82,7 +89,7 @@ main .green {
 footer {
     background: rgb(2,0,36);
     background: linear-gradient(90deg,#000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
-    border: 5px solid white; /* use hex */
+    border: 5px solid  #ffffff; 
 }
 
 footer p {
