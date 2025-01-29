@@ -1,15 +1,13 @@
 body {
-    font: Arial, verdana;
+    font-family: Arial, verdana, sans-serif;
     background: #000000; 
     color: #ffffff;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 20px 20px 0 20px; /* top, right bottom left */
 }
 
 h1 {
-    text-align: center;
     font-size: 42px;
+    text-align: center;
     padding: 15px;
 }
 
@@ -20,13 +18,14 @@ h2 {
 
 p {
     font-size: 24px;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 10px 0 0 10px;
 }
 
 img {
     width: 250px;
     border: 10px dashed #ffffff;
+
+    /* centered */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -36,29 +35,39 @@ div {
     min-height: 125px;
     padding: 20px;
     border: 3px solid #ffffff;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 main .introduction {
     border-radius: 15px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    margin: 15px 0 0 0;
     line-height: 2;
 }
 
 main div.red {
     background: #ff0000; 
     text-align: right;
-    margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    /* margin-left: 50px; */
+    margin: 0 0 0 50px;
+
+    border-bottom: 2px solid #ffffff;
+    border-left: 5px solid #ffffff;
+
+    border-right: 0px solid #ffffff;
+    border-top: 0px solid #ffffff;
 }
 
 main div.blue {
     background: #0000ff; /* use hex */
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+
+    border-top: 2px solid #ffffff;
+    border-right: 5px solid #ffffff;
+
+    border-bottom: 0px solid #ffffff;
+    border-left: 0px solid #ffffff;
 }
 
 main div.blue h2, main div.blue p {
@@ -70,8 +79,13 @@ main div.yellow {
     background: #ffff00; 
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+
+    border-bottom: 2px solid #ffffff;
+    border-left: 5px solid #ffffff;
+
+    border-top: 0px solid #ffffff;
+    border-right: 0px solid #ffffff;
+
 }
 
 main div.yellow p {
@@ -82,8 +96,11 @@ main div.green {
     background: #00EB00;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+
+    border-top: 2px solid #ffffff;
+    border-right: 5px solid #ffffff;
+    border-bottom: 0px solid #ffffff;
+    border-left: 0px solid #ffffff;
 }
 
 footer {
@@ -95,7 +112,9 @@ footer {
 footer p {
     font-size: 20px;
     text-align: right;
+
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    padding-left: 0px;
 }
