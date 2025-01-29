@@ -38,14 +38,14 @@ div {
     box-sizing: border-box;
 }
 
-main .introduction {
+.introduction {
     border-radius: 15px;
     /* margin-top: 15px; */
     margin: 15px 0 0 0;
     line-height: 2;
 }
 
-main div.red {
+.red {
     background: #ff0000; 
     text-align: right;
     /* margin-left: 50px; */
@@ -58,7 +58,7 @@ main div.red {
     border-top: 0px solid #ffffff;
 }
 
-main div.blue {
+.blue {
     background: #0000ff; /* use hex */
     text-align: left;
     margin-right: 50px;
@@ -70,12 +70,12 @@ main div.blue {
     border-left: 0px solid #ffffff;
 }
 
-main div.blue h2, main div.blue p {
+.blue h2, .blue p {
     color: #C4C4C4;
 
 }
 
-main div.yellow {
+.yellow {
     background: #ffff00; 
     text-align: right;
     margin-left: 50px;
@@ -88,11 +88,11 @@ main div.yellow {
 
 }
 
-main div.yellow p {
+.yellow p {
     color: #707070;
 }
 
-main div.green {
+.green {
     background: #00EB00;
     text-align: left;
     margin-right: 50px;
