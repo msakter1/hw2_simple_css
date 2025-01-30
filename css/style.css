@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, verdana;
+    font: Arial, verdana;
     background: #000000; 
     color: #ffffff;
     margin: 20px 20px 0 20px; /* top, right bottom left */
